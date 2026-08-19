@@ -1,0 +1,22 @@
+artifact_path: file:C:/Users/DELL/repo/Inventory_Optimization_Demand_forcasting/mlruns/1/models/m-491c5d07761e4a20accea395c487f100/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.14.6
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: ubj
+    xgb_version: 3.4.0
+mlflow_version: 3.15.1
+model_id: m-491c5d07761e4a20accea395c487f100
+model_size_bytes: 324157
+model_uuid: m-491c5d07761e4a20accea395c487f100
+prompts: null
+run_id: 19f8f312005044cb84ff5d248f6a350f
+utc_time_created: '2026-08-09 10:15:05.073574'
